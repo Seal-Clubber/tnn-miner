@@ -10,7 +10,7 @@
 **For Ubuntu 22.04:**
 Install development dependencies
 ```
-sudo apt install git wget build-essential cmake clang libssl-dev libudns-dev libfmt-dev libc++-dev 
+sudo apt install git wget build-essential cmake clang libssl-dev libudns-dev libfmt-dev libc++-dev g++-12
 # Checkout tnn-miner got from github
 git clone https://github.com/Tritonn204/tnn-miner.git
 cd tnn-miner
