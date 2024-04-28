@@ -1,11 +1,11 @@
 name: Build Tnn-miner on Ubuntu 22.04
 
 on:
-  push:
-    branches:
-    - '*dev*'
-    tags:
-      - "v*.*.*"
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Target branch to run'
+        required: true
 
 jobs:
   ubuntu-22:
