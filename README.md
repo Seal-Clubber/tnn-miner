@@ -56,7 +56,7 @@ General:
   --port arg             The port used to connect to the Dero node
   --wallet arg           Wallet address for receiving mining rewards
   --threads arg          The amount of mining threads to create, default is 1
-  --dev-fee arg          Your desired dev fee percentage, default is 2.5, minimum is 1
+  --dev-fee arg          Your desired dev fee percentage, default is 2.5, minimum is 0
   --no-lock              Disables CPU affinity / CPU core binding
   --lookup               Mine with lookup instead of regular C++
 

@@ -42,7 +42,7 @@ int cudaMemDenominator = 750; //Kilobytes per worker in VRAM
 // Dev fee config
 // Dev fee is a % of hashrate
 int batchSize = 5000;
-double minFee = 1;
+double minFee = 0;
 double devFee = 2.5;
 const char *devPool = "dero.rabidmining.com";
 
