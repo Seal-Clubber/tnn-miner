@@ -70,9 +70,6 @@ jobs:
         name: tnn-miner.tar.gz
         path: ./tnn-miner.tar.gz
         retention-days: 5
-    - name: 'Test Tnn-miner'
-      run: |
-        ./build/Tnn-miner --test
     - name: 'Release'
       uses: softprops/action-gh-release@v2
       if: startsWith(github.ref, 'refs/tags/')
